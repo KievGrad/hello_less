@@ -1,5 +1,9 @@
+@import "import/_settings";
+@import "import/_mixins";
 body{
-	background-color: black;
+	background-color: @sectionColorLight/2;
 }
-
-@import "import/header.less";
+box{
+	margin: @headerBoxMargin @headerBoxMargin/2;
+}
+@import "import/header";
